@@ -1,0 +1,19 @@
+{
+  "name": "bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "get_ip": "curl 'https://api.ipify.org?format=json'",
+    "test": "bun run test.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "figlet": "^1.6.0"
+  }
+}
